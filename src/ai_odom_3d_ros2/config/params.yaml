@@ -1,0 +1,11 @@
+$(var namespace)/ai_odometry:
+  ros__parameters:
+    imu_topic: /vectornav/imu
+    reference_frame_id: odom
+    frame_id: imu_link
+    calibrate_heading: True
+    calibration_distance: 1.0
+    publish_path: true
+    publish_tf: false
+    model_pt: checkpoint_150_new.pt
+    #model_pt: checkpoint_latest_3D.pt

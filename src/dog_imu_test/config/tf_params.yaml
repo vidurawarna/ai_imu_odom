@@ -1,0 +1,46 @@
+tf_parameters:
+
+  # translations [x,y,z] in meters RPY [r,p,y] in degrees
+
+  #base_link to lidar
+  # xyz_imu_lidar = [-0.024, 0.0, -0.062]
+  # rpy_imu_lidar = [math.radians(180), -math.radians(15), 0]
+  # turning imu frame
+  xyz_imu_lidar: [-0.024, 0.0, 0.062]
+  rpy_imu_lidar: [0.0, 15.0, 0]
+  # turning lidar frame
+  # xyz_imu_lidar = [-0.024, 0.0, -0.062]
+  # rpy_imu_lidar = [0.0, math.radians(15), 0]
+
+  #imu to baselink
+  # xyz_imu_baselink = [-0.3, 0.0, -0.03]
+  # rpy_imu_baselink = [math.radians(180), 0.0, 0]
+  xyz_imu_baselink: [-0.3, 0.0, 0.03]
+  rpy_imu_baselink: [0.0, 0.0, 0]
+
+  #imu to base_footprint
+  # xyz_imu_basefootprint = [-0.3, 0.0, 0.3]
+  # rpy_imu_basefootprint = [math.radians(180), 0.0, 0.0]
+  xyz_imu_basefootprint: [-0.3, 0.0, -0.3]
+  rpy_imu_basefootprint: [0.0, 0.0, 0.0]
+
+# lidar_to_imu_tf_broadcaster:
+#   ros__parameters:
+#     # translations [x,y,z] in meters RPY [r,p,y] in degrees
+#     lidar_to_imu_translation: [0.04779, 0.0, -0.05149]
+#     lidar_to_imu_RPY: [180.0, 15.0, 0.0]
+
+# lidar_to_baselink_tf_broadcaster:
+#   ros__parameters:
+#     # translations [x,y,z] in meters RPY [r,p,y] in degrees
+#     lidar_to_baselink_translation: [-0.25, 0.0, -0.1]
+#     lidar_to_baselink_RPY: [1.5, 15.5, 0.0]
+
+  xyz_lidar_imu: [0.04779, 0.0, -0.05149]
+  rpy_lidar_imu: [0.0, -15, 0.0]
+
+  rpy_lidar_baselink: [1.5, 15.5, 0.0]
+  xyz_lidar_baselink: [-0.25, 0.0, -0.1]
+
+  xyz_baselink_basefootprint: [0.0, 0.0, -0.25]
+  rpy_baselink_basefootprint: [0.0, 0.0, 0.0]

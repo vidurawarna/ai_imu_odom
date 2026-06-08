@@ -1,0 +1,15 @@
+numpy
+torch
+numpy-quaternion
+transforms3d
+
+# scipy
+# pandas
+# h5py
+# matplotlib
+# torchvision
+# tensorboardX
+# numba
+# plyfile
+# tqdm
+# scikit-learn
