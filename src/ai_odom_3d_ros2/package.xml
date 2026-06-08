@@ -4,8 +4,8 @@
   <name>ai_odom_3d_ros2</name>
   <version>0.0.0</version>
   <description>Ai-aided legged robot localization - ROS2 package</description>
-  <author>author1</author>
-  <maintainer>maintainer</maintainer>
+  <author email="your.email@example.com">author1</author>
+  <maintainer email="your.email@example.com">maintainer1</maintainer>
   <license>BSD-2.0</license>
 
   <test_depend>ament_copyright</test_depend>
