@@ -18,7 +18,7 @@ setup(
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='maintainer1',
-    maintainer_email='todo@mail1',
+    maintainer_email='your.email@example.com',
     description='TODO: Package description',
     license='Apache-2.0',
     entry_points={
