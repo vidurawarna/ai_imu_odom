@@ -18,7 +18,7 @@ Notes:
 > There can be other dependencies based on the system that you are using. Install them if the python scripts give errors while execution. </br>
 
 ## Downloading required files
-* Download the model pointers and bag files ```/models```, ```/bag_files``` from [here](https://drive.google.com/drive/folders/1FyebkV7LGNfv43NNngu7IYO6nVEfpdU0?usp=sharing)
+* Download the model pointers and bag files ```/models```, ```/bag_files``` from [here](https://sutdapac-my.sharepoint.com/:f:/g/personal/bandusena_sutd_edu_sg/IgANK62205PPQaoRfQS4wGQiAR8b6XPERxrcT0Y6Y8iGsEU?e=v2oAvj)
 * Copy downloaded ```/bag_files``` to ```<workspace_name>/bag_files/```
 * Copy downloaded ```/models``` to ```<workspace_name>/src/ai_odom_3d_ros2/models/```
 
