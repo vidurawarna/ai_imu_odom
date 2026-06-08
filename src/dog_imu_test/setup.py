@@ -17,8 +17,8 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='Vidura',
-    maintainer_email='vidurawarna99@gmail.com',
+    maintainer='maintainer1',
+    maintainer_email='todo@mail1',
     description='TODO: Package description',
     license='Apache-2.0',
     entry_points={
