@@ -19,9 +19,9 @@ setup(
     install_requires=['setuptools'],
     zip_safe=True,
     author='author1, author2',
-    author_email='todo@mail1, todo@mail2',
+    author_email='your.email@example.com, your.email@example.com',
     maintainer='maintainer2',
-    maintainer_email='todo@mail1',
+    maintainer_email='your.email@example.com',
     description='Ai-aided legged robot localization - ROS2 package',
     license='BSD-2.0',
     entry_points={
