@@ -4,8 +4,8 @@
   <name>dog_imu_test</name>
   <version>0.0.0</version>
   <description>Tesitings on dog AI-IMU</description>
-  <author email="todo@mail1">author1</author>
-  <maintainer email="todo@mail1">maintainer1</maintainer>
+  <author email="your.email@example.com">author1</author>
+  <maintainer email="your.email@example.com">maintainer1</maintainer>
   <license>Apache-2.0</license>
 
   <test_depend>ament_copyright</test_depend>
