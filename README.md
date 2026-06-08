@@ -9,9 +9,18 @@ This repository shares the ROS2 implementations that were done for the work "AI-
 
 ## Setup
 * Install ```ROS2``` by followng the guidance in [ROS2 installation](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html).
-* Create a workspace for the project and a ```/src``` folder inside the workspace.
-* Open a terminal and navigate to ```<workspace_name>/src``` and copy the folders of this repo inside the src. 
-* Navigate the terminal to ```<workspace_name>/src``` and run the following command to install the required python libraries using pip3. 
+* Create a workspace for the project.
+* Open a terminal and navigate to ```<workspace_name>``` and copy the folders of this repo.
+* The folder structure should look like this after copying (Make the structure like this if it is different).
+```
+workspace_name
+└───bag_files
+└───requirements.txt
+└───src
+    └───ai_odom_3d_ros2
+    └───dog_imu_test
+```
+* Run the following command to install the required python libraries using pip3. 
 >     pip3 install -r requirements.txt
 Notes:
 > Check whether the SLAM toolbox is installed after installing ROS2. </br>
